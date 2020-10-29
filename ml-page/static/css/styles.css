@@ -82,6 +82,10 @@ img {
     color: #fff;
 }
 
+.hero.blog {
+    background: url('../images/');
+}
+
 .hero .content {
     display: flex;
     flex-direction: column;
