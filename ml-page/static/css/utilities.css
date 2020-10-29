@@ -32,6 +32,11 @@
     color: #fff;
 }
 
+.btn-deep-secondary, .bg-deep-secondary {
+    background-color: #fa9a4c;
+    color: #333;
+}
+
 .btn-dark, .bg-dark {
     background-color: #333;
     color: #fff;
@@ -67,12 +72,18 @@
 }
 
 /* Flex columns */
+
+.flex-columns.flex-reverse .row {
+    flex-direction: row-reverse;
+}
+
 .flex-columns .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
+
 
 .flex-columns .column {
     display: flex;
