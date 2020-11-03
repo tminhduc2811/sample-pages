@@ -48,13 +48,17 @@ img {
     z-index: 333;
     top: 0px;
     padding: 0 30px;
+    transition: 0.3s ease-in;
+}
+
+.navbar.top {
+    background: transparent;
 }
 
 .navbar:hover {
     opacity: 1;
     transition: .3s;
 }
-
 .navbar a {
     color: #fff;
     padding: 20px;
