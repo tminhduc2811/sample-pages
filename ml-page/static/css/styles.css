@@ -83,7 +83,9 @@ img {
 }
 
 .hero.blog {
-    background: url('../images/');
+    background: url('../images/blog.jpg') no-repeat bottom center/cover;
+    height: 40vh;
+    color: #f3e84f;
 }
 
 .hero .content {
@@ -94,6 +96,10 @@ img {
     text-align: center;
     height: 100vh;
     padding: 0 20px;
+}
+
+.hero.blog .content {
+    height: 40vh;
 }
 
 .hero .content h1 {
